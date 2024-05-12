@@ -8,6 +8,8 @@ df = pd.DataFrame({"colA": [1, 2, 3], "colB": [4, 5, 6]})
 
 root = df
 
+# TODO need to implement max recursion depth in vizualizer
+
 def func_children(x):
     children=[]
     attnames = list(dir(x))
